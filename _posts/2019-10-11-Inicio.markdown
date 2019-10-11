@@ -1,0 +1,8 @@
+---
+layout: post
+permalink: /inicio
+---
+
+# index
+
+esto es el inicio

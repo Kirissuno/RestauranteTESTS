@@ -1,0 +1,35 @@
+---
+--- 
+<head>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+</head>
+
+<div id="header">
+    <div id="logo">
+            <a href="{{ site.baseurl }}/inicio">Logo-Chan</a>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="{{ site.baseurl }}/inicio">Inicio</a></li>
+            <li><a href="{{ site.baseurl }}/menu">Menú</a></li>
+            <li><a href="{{ site.baseurl }}/quienes-somos">Quiénes Somos</a></li>
+            <li><a href="{{ site.baseurl }}/contactanos">Contáctanos</a></li>
+            <li><a href="{{ site.baseurl }}/galeria">Galería</a></li>
+            <li id="reservas"><a href="{{ site.baseurl }}/reservas">Reservas</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <main>
+        {{content}}
+    </main>
+    <aside>
+        pene de anuncio
+    </aside>
+</div>
+
+<div class="footer">
+    Quienes somos y tal
+</div>
