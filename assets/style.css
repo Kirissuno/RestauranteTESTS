@@ -107,6 +107,13 @@ nav{
 main{
     word-wrap: break-word;
     float: left;
+    width: 100%;
+    height: auto;
+}
+
+.publicidad main{
+    word-wrap: break-word;
+    float: left;
     width: 70%;
     height: auto;
 }
@@ -115,7 +122,8 @@ aside{
     padding-top: 1%;
     float: right;
     width: 30%;
-    height: 80%;
+    max-height: 82%;
+    height: auto;
     background-color: #ffdf2b;
 }
 
