@@ -6,17 +6,22 @@
 
 <div id="header">
     <div id="logo">
-            <a href="/inicio">Logo-Chan</a>
+            <a href="/">
+                <img src="/assets/images/logo.png" >
+            </a>
     </div>
     <div id="menu">
-        <ul>
-            <li><a href="/" class="">Inicio</a></li>
-            <li><a href="/menu" class="">Menú</a></li>
-            <li><a href="/quienes-somos" class="">Quiénes Somos</a></li>
-            <li><a href="/contactanos" class="current">Contáctanos</a></li>
-            <li><a href="/galeria" class="">Galería</a></li>
-            <li id="reservas"><a href="/reservas">Reservas</a></li>
-        </ul>
+        <nav class="menu">
+            <a class="nav-boton" onclick="accion()"><img src="/assets/images/menu.png" width="50px" height="auto"></a>
+            
+            <a href="/" class="nav-enlace desaparece ">Inicio</a></li>
+            <a href="/menu" class="nav-enlace desaparece ">Menú</a></li>
+            <a href="/quienes-somos" class="nav-enlace desaparece ">Quiénes Somos</a></li>
+            <a href="/contactanos" class="nav-enlace desaparece current">Contáctanos</a></li>
+            <a href="/galeria" class="nav-enlace desaparece ">Galería</a></li>
+            <a id="reservas"class="nav-enlace desaparece " href="/reservas">Reservas</a></li>
+            
+        </nav>
     </div>
 </div>
 
@@ -79,13 +84,18 @@ console.log(
 </ul>
 
     </main>
-
-
-    
-
 </div>
 
 
 <div class="footer">
     Quienes somos y tal
 </div>
+
+<script>
+    function accion(){
+        var ancla = document.getElementsByClassName('nav-enlace');
+        for(var i = 0; i < ancla.length; i++){
+            ancla[i].classList.toggle('desaparece');
+        }
+    }
+</script>

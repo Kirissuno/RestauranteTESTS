@@ -3,11 +3,12 @@ body{
     width: 100%;
     min-height: 100%;
     height: auto;
+    background-color: #a1a6b4;
 }
 
 #header{
     width: 100%;
-    min-height: 10%;
+    min-height: 100px;
     height: auto;
     background-color: black;
     color: white;
@@ -15,9 +16,13 @@ body{
 }
 
 #logo{
-    padding-left: 3%;
     float: left;
-    margin: 2%;
+}
+
+#logo img{
+    width: 100px;
+    height: auto;
+    transform: translate(80%,40%);
 }
 
 #menu{
@@ -27,25 +32,68 @@ body{
     overflow: hidden;
 }
 
-#menu li{
-    display: inline;
+#menu .nav-enlace{
+    padding-top: 2%;
     margin-right: 10px;
+    margin-top: 2%;
 }
 
 #reservas{
-    border: 1px solid white;
+    border: 1px solid yellow;
     padding: 10px;
 }
 
-a:link, a:visited{
+a:link, a:visited, a:hover{
     text-decoration: none;
     color: white;
 }
 
-a:hover, .current{
+.current:hover, .current{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
 }
+
+/* MENU */
+
+.nav-enlace{
+    display: inline-block;
+}
+
+nav{
+    display: flex;
+}
+.nav-boton{
+    padding-top: 17px;
+    padding-right: 10px;
+    display: none;
+}
+
+@media (max-width: 720px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }   
+
+    .nav-boton{
+        display: block;
+    }
+
+    .menu{
+        text-align: right;
+        width: 400px;
+        padding-bottom: 2%;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+    #reservas{
+        border: 0px;
+    }
+}
+
+/* */
 
 .container{
     overflow: hidden;

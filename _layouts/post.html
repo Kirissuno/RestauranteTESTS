@@ -8,17 +8,22 @@
 
 <div id="header">
     <div id="logo">
-            <a href="{{ site.baseurl }}/inicio">Logo-Chan</a>
+            <a href="{{ site.baseurl }}/">
+                <img src="{{site.basurl}}/assets/images/logo.png" >
+            </a>
     </div>
     <div id="menu">
-        <ul>
-            <li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %} current {% endif %}">Inicio</a></li>
-            <li><a href="{{ site.baseurl }}/menu" class="{% if page.url == '/menu' %}current{% endif %}">Menú</a></li>
-            <li><a href="{{ site.baseurl }}/quienes-somos" class="{% if page.url == '/quienes-somos' %}current{% endif %}">Quiénes Somos</a></li>
-            <li><a href="{{ site.baseurl }}/contactanos" class="{% if page.url == '/contactanos' %}current{% endif %}">Contáctanos</a></li>
-            <li><a href="{{ site.baseurl }}/galeria" class="{% if page.url == '/galeria' %}current{% endif %}">Galería</a></li>
-            <li id="reservas"><a href="{{ site.baseurl }}/reservas">Reservas</a></li>
-        </ul>
+        <nav class="menu">
+            <a class="nav-boton" onclick="accion()"><img src="{{site.basurl}}/assets/images/menu.png" width="50px" height="auto"></a>
+            
+            <a href="{{ site.baseurl }}/" class="nav-enlace desaparece {% if page.url == '/' %} current {% endif %}">Inicio</a></li>
+            <a href="{{ site.baseurl }}/menu" class="nav-enlace desaparece {% if page.url == '/menu' %}current{% endif %}">Menú</a></li>
+            <a href="{{ site.baseurl }}/quienes-somos" class="nav-enlace desaparece {% if page.url == '/quienes-somos' %}current{% endif %}">Quiénes Somos</a></li>
+            <a href="{{ site.baseurl }}/contactanos" class="nav-enlace desaparece {% if page.url == '/contactanos' %}current{% endif %}">Contáctanos</a></li>
+            <a href="{{ site.baseurl }}/galeria" class="nav-enlace desaparece {% if page.url == '/galeria' %}current{% endif %}">Galería</a></li>
+            <a id="reservas"class="nav-enlace desaparece {% if page.url == '/reservas' %}current{% endif %}" href="{{ site.baseurl }}/reservas">Reservas</a></li>
+            
+        </nav>
     </div>
 </div>
 
@@ -26,13 +31,18 @@
     <main>
         {{ content }}
     </main>
-
-
-    
-
 </div>
 
 
 <div class="footer">
     Quienes somos y tal
 </div>
+
+<script>
+    function accion(){
+        var ancla = document.getElementsByClassName('nav-enlace');
+        for(var i = 0; i < ancla.length; i++){
+            ancla[i].classList.toggle('desaparece');
+        }
+    }
+</script>
