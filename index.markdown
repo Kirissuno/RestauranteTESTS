@@ -1,7 +1,5 @@
 --- 
 layout: post
+permalink: /
 --- 
 
-# index
-
-Indice
