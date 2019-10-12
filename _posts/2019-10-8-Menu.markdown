@@ -3,6 +3,4 @@ layout: post
 permalink: /menu
 ---
 
-# Menú
-
-Menús
+<h1> HOLA </h1>

@@ -12,7 +12,7 @@
     </div>
     <div id="menu">
         <ul>
-            <li><a href="{{ site.baseurl }}/inicio" class="{% if page.url == '/inicio' %} current {% endif %}">Inicio</a></li>
+            <li><a href="{{ site.baseurl }}/" class="{% if page.url == '/' %} current {% endif %}">Inicio</a></li>
             <li><a href="{{ site.baseurl }}/menu" class="{% if page.url == '/menu' %}current{% endif %}">Menú</a></li>
             <li><a href="{{ site.baseurl }}/quienes-somos" class="{% if page.url == '/quienes-somos' %}current{% endif %}">Quiénes Somos</a></li>
             <li><a href="{{ site.baseurl }}/contactanos" class="{% if page.url == '/contactanos' %}current{% endif %}">Contáctanos</a></li>
@@ -24,8 +24,12 @@
 
 <div class="container">
     <main>
-        {{content}}
+        {{ content }}
     </main>
+
+
+    
+
 </div>
 
 
