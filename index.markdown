@@ -7,33 +7,10 @@ permalink: /
 
 <h1 style="font-size: 40px">Stranger Foods</h1>
 
-<div class="carousel-wrapper">
-  <span id="item-1"></span>
-  <span id="item-2"></span>
-  <span id="item-3"></span>
-
-
-  <div class="carousel-item item-1">
-    <h2>Comedor</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus   accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
-    <a class="arrow arrow-prev" href="#item-3"></a>
-    <a class="arrow arrow-next" href="#item-2"></a>
-  </div>
-  
-  <div class="carousel-item item-2">
-    <h2>Mesa</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
-    <a class="arrow arrow-prev" href="#item-1"></a>
-    <a class="arrow arrow-next" href="#item-3"></a>
-  </div>
-  
-  <div class="carousel-item item-3">
-    <h2>Disfruta con amigos y familia</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
-    <a class="arrow arrow-prev" href="#item-2"></a>
-    <a class="arrow arrow-next" href="#item-1"></a>
-  </div>
+<div id="imagensincarousel">
+  <img src="{{site.baseurl}}/assets/images/res.jpg">
 </div>
+
 
 
 <div>
