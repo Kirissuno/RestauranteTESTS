@@ -58,7 +58,7 @@ permalink: /
   </video>
 
   <div class="contentvideo">
-    <h1>Encuéntranos</h1>
-    <p>El mejor restaurante de Brenes.</p>
+    <h1>Nos gusta comer</h1>
+    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad.</p>
   </div>
 </div>
