@@ -72,84 +72,6 @@ nav {
     display: none;
 }
 
-/* MENU RESPONSIVE */
-@media screen and (max-width: 768px) {
-    nav {
-        background: black;
-        flex-direction: column;
-    }
-
-    .nav-boton {
-        float: right;
-        display: block;
-    }
-
-    .menu {
-        text-align: right;
-        width: 400px;
-        padding-bottom: 2%;
-    }
-
-    .desaparece {
-        display: none;
-    }
-
-    #reservas {
-        border: 0;
-    }
-
-    .carousel-wrapper {
-        height: 150px;
-        position: relative;
-        width: 200px;
-    }
-
-    .carousel-item {
-        position: absolute;
-        width: 80%;
-        padding: 50px 25px;
-    }
-
-    .carousel-item h2 {
-        font-size: 14px;
-        margin-top: 15%;
-        background: rgba(255, 255, 255, 0.76);
-    }
-
-    .carousel-item p {
-        font-size: 10px;
-        margin-top: -10px;
-        background: rgba(255, 255, 255, 0.76);
-    }
-
-    .footer{
-        padding-bottom: 30px;
-    }
-}
-
-@media screen and (max-width: 532px) {
-    nav {
-        background: black;
-        flex-direction: column;
-    }
-
-    .menu {
-        text-align: right;
-        width: 200px;
-        padding-bottom: 2%;
-    }
-
-    .desaparece {
-        margin-top: 100px;
-
-        display: none;
-    }
-
-    #reservas {
-        border: 0;
-    }
-}
-
 /* CUERPO */
 .container {
     overflow: hidden;
@@ -270,8 +192,163 @@ aside {
     vertical-align: middle;
     width: 100%;
   }
+
+#imagensincarousel{
+    display: none;
+}
+
+/* VIDEO INDEX */
+
+  #myVideo {
+    position: relative;
+    width: 80%;
+    min-width: 80%;
+    height: auto;
+    min-height: 350px;
+    max-height: 900px;
+
+  }
   
-  @media screen and (max-width: 800px) {
+  .contentvideo {
+    margin-top: -120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.800);
+    color: #f1f1f1;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+
+    #infoindex{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: -10%;
+        padding: 5px;
+        width: 120%;
+        background-color: black;
+        height: auto;
+    }
+
+  #infoindex table{
+      width: 60%;
+      color: white;
+      text-align: center;
+  }
+
+    #infoindex table td{
+        width: 33%;
+    }
+
+    #infoindex table td button{
+        margin: 5px;
+        border: 1px solid yellow;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+    }
+
+    .videooculto{
+        display: none;
+    }
+
+
+  /* MENU RESPONSIVE */
+@media screen and (max-width: 768px) {
+    nav {
+        background: black;
+        flex-direction: column;
+    }
+
+    .nav-boton {
+        float: right;
+        display: block;
+    }
+
+    .menu {
+        text-align: right;
+        width: 400px;
+        padding-bottom: 2%;
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    #reservas {
+        border: 0;
+    }
+
+    .carousel-wrapper {
+        height: 150px;
+        position: relative;
+        width: 200px;
+    }
+
+    .carousel-item {
+        position: absolute;
+        width: 80%;
+        padding: 50px 25px;
+    }
+
+    .carousel-item h2 {
+        font-size: 14px;
+        margin-top: 15%;
+        background: rgba(255, 255, 255, 0.76);
+    }
+
+    .carousel-item p {
+        font-size: 10px;
+        margin-top: -10px;
+        background: rgba(255, 255, 255, 0.76);
+    }
+
+    .footer{
+        padding-bottom: 30px;
+    }
+
+    .contentvideo {
+        margin-top: -80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: sticky;
+        background: rgba(0, 0, 0, 0.800);
+        color: #f1f1f1;
+        width: 90%;
+      }
+    
+
+}
+
+@media screen and (max-width: 532px) {
+    nav {
+        background: black;
+        flex-direction: column;
+    }
+
+    .menu {
+        text-align: right;
+        width: 200px;
+        padding-bottom: 2%;
+    }
+
+    .desaparece {
+        margin-top: 100px;
+
+        display: none;
+    }
+
+    #reservas {
+        border: 0;
+    }
+
+    .videodesap{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .columna {
       -ms-flex: 100%;
       flex: 100%;
@@ -287,6 +364,34 @@ aside {
     }
   }
 
+    /* imagen en imágen */
+
+@media screen and (max-width: 650px){
+    #imagensincarousel{
+        display: block;
+    }
+
+    #imagensincarousel img{
+        display: block;
+        width: 310px;
+        height: 500px;
+    }
+
+    .videodesap {
+        display: none;
+      }
+
+    .videooculto{
+        display: block;
+    }
+
+    .videooculto #myVideo{
+        margin-top: -30px;
+        width: 100%;
+    }
+
+  }
+
   @media screen and (max-width: 600px) {
     .columna {
       -ms-flex: 100%;
@@ -295,23 +400,4 @@ aside {
     }
   }
 
-#imagensincarousel img{
-    display: none;
-}
-
-
   
-
-  /* RESPONSIVE */
-
-@media screen and (max-width: 650px){
-
-    #imagensincarousel img{
-        display: block;
-        width: 310px;
-        height: 500px;
-    }
-
-  }
-
-
