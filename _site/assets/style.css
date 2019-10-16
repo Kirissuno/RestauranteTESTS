@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 body {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     width: 100%;
     min-height: 100%;
     height: auto;
-    background-color: #a1a6b4;
+    background-color: rgb(200, 200, 200);
 }
 
 /* CABECERA */
@@ -80,7 +82,7 @@ nav {
     padding-right: 5%;
     min-height: 81.6%;
     height: auto;
-    background-color: #a1a6b4;
+    background-color: rgb(200, 200, 200);
 }
 
 main {
@@ -177,6 +179,7 @@ aside {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
+    margin-left: 5%;
     padding-bottom: 1%;
   }
   
@@ -401,3 +404,135 @@ aside {
   }
 
   
+
+
+
+
+
+
+
+
+  /* QUIENES SOMOS */
+
+.row {
+    justify-content: center;
+  }
+/* tarjetas equipo justificación*/
+.card{
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 10px;
+  }
+
+
+
+  /* Clear floats after the columns */
+  /* Muy importante, si no hacemos clear puede haber problemas en el diseño*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+      
+    }
+  }
+  
+  .card {
+    box-shadow: 0 8px 8px 0 rgba(92, 92, 92, 0.2);
+  }
+  
+
+  .containerImages {
+    padding: 16px;
+  } 
+
+  .containerImages {
+    background-color: rgba(255, 255, 255, 0.514);
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  h1.titulo{
+    text-align: center;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+  }
+
+  /* location and contact information */
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    justify-content: center;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: yellow;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: style=#d3d0cb;
+  }
+  
+  /* Style the container/contact section */
+
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .information {
+    text-align: center;
+    align-content: center;
+    margin-top:50px;
+    margin-bottom:15px;
+    font-size: 20px;
+  }
+
+  /* Responsive */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

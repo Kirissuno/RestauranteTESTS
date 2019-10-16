@@ -5,7 +5,7 @@ permalink: /
 
 <div align="center">
 
-<h1 style="font-size: 40px">Stranger Foods</h1>
+<h1 style="font-size: 40px">Stranger Food</h1>
 
 <div id="imagensincarousel">
   <img src="{{site.baseurl}}/assets/images/res.jpg">
@@ -20,7 +20,7 @@ permalink: /
 
   <div class="contentvideo">
     <h1>BIENVENIDOS</h1>
-    <p>Vive la experiencia y disfruta de la esencia de lo bueno.</p>
+    <p>Vive la experiencia y disfruta de la esencia de lo bueno</p>
   </div>
 </div>
 
@@ -32,9 +32,9 @@ permalink: /
       <th>GALERÍA</th>
     </tr>
     <tr>
-      <td>Échale un buen vistazo a nuesto menú.</td>
-      <td>Somos mejores cocinando que programando.</td>
-      <td>Nuestras mejores delicateces.</td>
+      <td>Échale un buen vistazo a nuesto menú</td>
+      <td>Somos mejores cocinando que programando</td>
+      <td>Nuestras mejores delicateces</td>
     </tr>
     <tr>
       <td><a href="{{ site.baseurl }}/menu"><button>Menú</button></a></td>
@@ -59,6 +59,6 @@ permalink: /
 
   <div class="contentvideo">
     <h1>Nos gusta comer</h1>
-    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad.</p>
+    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad</p>
   </div>
 </div>
