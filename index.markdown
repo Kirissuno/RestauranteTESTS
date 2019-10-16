@@ -21,27 +21,22 @@ permalink: /
   <div class="contentvideo">
     <h1>BIENVENIDOS</h1>
     <p>Vive la experiencia y disfruta de la esencia de lo bueno</p>
+    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad</p>
   </div>
 </div>
 
 <div id="infoindex">
-  <table>
-    <tr>
-      <th>MENÚ</th>
-      <th>QUIÉNES SOMOS</th>
-      <th>GALERÍA</th>
-    </tr>
-    <tr>
-      <td>Échale un buen vistazo a nuesto menú</td>
-      <td>Somos mejores cocinando que programando</td>
-      <td>Nuestras mejores delicateces</td>
-    </tr>
-    <tr>
-      <td><a href="{{ site.baseurl }}/menu"><button>Menú</button></a></td>
-      <td><a href="{{ site.baseurl }}/quienes-somos"><button>Quiénes Somos</button></a></td>
-      <td><a href="{{ site.baseurl }}/galeria"><button>Galería</button></a></td>
-    </tr>
-  </table>
+  <div class="grid-container">
+    <div class="grid-item"><b>MENÚ</b></div>
+    <div class="grid-item"><b>QUIÉNES SOMOS</b></div>
+    <div class="grid-item"><b>GALERÍA</b></div>  
+    <div class="grid-item">Échale un buen vistazo a nuesto menú</div>
+    <div class="grid-item">Somos mejores cocinando que programando</div>
+    <div class="grid-item">Nuestras mejores delicateces</div>  
+    <div class="grid-item"><a href="{{ site.baseurl }}/menu"><button>Menú</button></a></div>
+    <div class="grid-item"><a href="{{ site.baseurl }}/quienes-somos"><button>Quiénes Somos</button></a></div>
+    <div class="grid-item"><a href="{{ site.baseurl }}/galeria"><button>Galería</button></a></div>  
+  </div>
 </div>
 
 <div class="videooculto">

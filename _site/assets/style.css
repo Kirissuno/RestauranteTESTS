@@ -439,13 +439,48 @@ aside {
     clear: both;
   }
 
-  /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+  .grid-container {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item b {
+    color: yellow;
+  }
+
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
       
     }
+
+    .grid-container {
+      margin-right: -10px;
+      margin-left: -10px;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+    }
+    .grid-item {
+      color: white;
+      padding: 20px;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .grid-item b{
+      font-size: 16px;
+    }
+
   }
   
   .card {
@@ -535,4 +570,13 @@ aside {
       width: 100%;
       margin-top: 0;
     }
+  }
+
+
+
+  .grid-item button{
+    padding: 10px;
+    background-color: yellow;
+    font-size: 18px;
+    border: none;
   }
