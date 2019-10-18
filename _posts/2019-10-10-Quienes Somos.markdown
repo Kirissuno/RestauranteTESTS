@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /quienes-somos
+title: Quiénes Somos
 ---
 
 <div>

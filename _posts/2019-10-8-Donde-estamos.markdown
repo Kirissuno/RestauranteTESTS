@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /donde-estamos
+title: Dónde Estámos
 ---
 
 <div class="container">

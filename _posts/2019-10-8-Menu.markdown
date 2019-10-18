@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /menu
+title: Menú
 ---
 
 <br>
@@ -15,8 +16,6 @@ permalink: /menu
 
 <hr/>
 <br>
-
-
     <div class="grid-container">
         <div class="grid-item">
             <p><b>JAMÓN 19€</b></p>

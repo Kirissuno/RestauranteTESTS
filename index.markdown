@@ -1,6 +1,7 @@
 --- 
 layout: post
 permalink: /
+title: Inicio
 --- 
 
 <div align="center">
@@ -9,7 +10,9 @@ permalink: /
 
 <div id="imagensincarousel">
   <img src="{{site.baseurl}}/assets/images/res.jpg">
-    Vive la experiencia y disfruta de la esencia de lo bueno.
+    <hr>
+    <p>Vive la experiencia y disfruta de la esencia de lo bueno.</p>
+    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad</p>
 </div>
 
 <div class="videodesap">
@@ -21,7 +24,6 @@ permalink: /
   <div class="contentvideo">
     <h1>BIENVENIDOS</h1>
     <p>Vive la experiencia y disfruta de la esencia de lo bueno</p>
-    <p>Una cocina basada en la tradición, tratada con creatividad, encontrando así nuestra propia identidad</p>
   </div>
 </div>
 

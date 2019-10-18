@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /galeria
+title: Galería
 ---
 
 <div align="center">

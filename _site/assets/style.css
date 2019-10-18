@@ -102,8 +102,8 @@ aside {
     float: right;
     width: 30%;
     max-height: 82%;
+    display: block;
     height: auto;
-    background-color: #ffdf2b;
 }
 
 /* FOOTER */
@@ -631,6 +631,72 @@ aside {
 
 #menucomida .grid-item {
   padding: 20px;
+}
+
+/* RESERVA */
+
+#formreserva{
+  padding-top: 50px;
+  width: 100%;
+  display: block;
+  padding-right: 50px;
+}
+
+#sugerencias{
+  width: 80%;
+}
+
+/* ANUNCIO */
+
+.anuncio {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+  max-height: 80%;
+  height: auto;
+}
+
+#btnreservar{
+    padding: 10px;
+    background-color: yellow;
+    font-size: 18px;
+    border: none;
+}
+
+@media screen and (max-width: 1200px){
+  .publicidad main{
+    width: 100%;
+    clear: both;
+  }
+
+  #formreserva{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  aside{
+    height: auto;
+    max-height: 100% ;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #divanuncio{
+    width: 100%;
+    clear: both;
+  }
+
+  #divanuncio img{
+    position: sticky;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+  }
+  
 }
 
 /* RESPONSIVE */
