@@ -21,7 +21,7 @@ title: Dónde Estámos
       </div>
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form action="#">
         <label for="fname">Nombre</label>
         <input type="text" id="fname" name="firstname" placeholder="">
         <label for="lname">Apellidos</label>
